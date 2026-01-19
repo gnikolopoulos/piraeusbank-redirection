@@ -3,10 +3,9 @@
     <system>
         <section id="payment">
                 <group id="piraeus" translate="label" sortOrder="2" showInDefault="1" showInWebsite="1" showInStore="1">
-
                     <label>Winbank Redirect</label>
 
-                    <field id="active" translate="label comment" sortOrder="1" type="select" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <field id="active" translate="label comment" sortOrder="1" type="select" showInDefault="1" showInWebsite="1" showInStore="1">
                         <label>Enable</label>
                         <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                     </field>
@@ -15,33 +14,33 @@
                         <label>Title</label>
                     </field>
 
-                    <field id="installments" translate="label comment" sortOrder="3" type="text" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <field id="installments" translate="label comment" sortOrder="3" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
                         <label>Installments</label>
                     </field>
 
-                    <field id="request_type" translate="label comment" sortOrder="4" type="text" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <field id="request_type" translate="label comment" sortOrder="4" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
                         <label>Request Type</label>
                         <comment>Sale: 02 , Autorization: 00</comment>
                     </field>
 
-                    <field id="expire_preauth" translate="label comment" sortOrder="5" type="text" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <field id="expire_preauth" translate="label comment" sortOrder="5" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
                         <label>Expire Preauth</label>
                         <comment>If Request Type is02 this must be 00 </comment>
                     </field>
 
-                    <field id="acquirer_id" translate="label comment" sortOrder="6" type="text" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <field id="acquirer_id" translate="label comment" sortOrder="6" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
                         <label>Acquirer ID</label>
                     </field>
 
-                    <field id="merchant_id" translate="label comment" sortOrder="7" type="text" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <field id="merchant_id" translate="label comment" sortOrder="7" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
                         <label>Merchant ID</label>
                     </field>
 
-                    <field id="username" translate="label comment" sortOrder="8" type="text" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <field id="username" translate="label comment" sortOrder="8" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
                         <label>Username</label>
                     </field>
 
-                    <field id="password" translate="label comment" sortOrder="9" type="text" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <field id="password" translate="label comment" sortOrder="9" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
                         <label>Password</label>
                     </field>
 
@@ -54,11 +53,11 @@
                         <source_model>Magento\Sales\Model\Config\Source\Order\Status</source_model>
                     </field>
 
-                    <field id="ticket_url" translate="label comment" sortOrder="300" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <field id="ticket_url" translate="label comment" sortOrder="300" type="text" showInDefault="1" showInWebsite="1" showInStore="0">
                         <label>Ticket Url</label>
                     </field>
 
-                    <field id="post_url" translate="label comment" sortOrder="400" type="text" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <field id="post_url" translate="label comment" sortOrder="400" type="text" showInDefault="1" showInWebsite="1" showInStore="0">
                         <label>Post Url</label>
                     </field>
 

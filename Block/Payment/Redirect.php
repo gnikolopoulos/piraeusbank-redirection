@@ -28,7 +28,7 @@ class Redirect extends \Magento\Framework\View\Element\Template
 	public function generateTicket()
 	{
         try {
-            $soap       = new \Zend\Soap\Client($this->_helper->getTicketUrl());
+            $soap       = new \SoapClient($this->_helper->getTicketUrl());
             $xml        = array('Request' => $this->_helper->getTicketData());
             $response   = $soap->IssueNewTicket($xml);
             $this->logger->debug(print_r($xml, true));
