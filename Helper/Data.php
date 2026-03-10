@@ -134,7 +134,8 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
         );
     }
 
-    public function getAvailableInstallments() {
+    public function getAvailableInstallments()
+    {
         $available = array();
         $installments = $this->getInstallments();
         $bgt = $this->cart->getQuote()->getData('base_grand_total');
