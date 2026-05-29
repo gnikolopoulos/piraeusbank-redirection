@@ -7,4 +7,8 @@
       </argument>
     </arguments>
   </type>
+
+  <type name="Magento\Sales\Model\Order\Email\Sender\OrderSender">
+    <plugin name="natso_suppress_order_email" type="Natso\Piraeus\Plugin\SuppressOrderEmailPlugin" sortOrder="1"/>
+  </type>
 </config>
